@@ -132,7 +132,7 @@ span{ /*for the font*/
     font-weight: 1000;
     font-size: x-large;
 }
-.paragraph1{ /* for the paragrapg*/
+.paragraph1{ /* for the paragraph*/
     padding-left: 2vw;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -166,7 +166,7 @@ body, ul {
     padding: 3px;
     
 }
-.navbar {
+.navbar { /* for the navbar*/
     background-color: #64b6b2;
     width: 100vw;
     height: 10vh;
@@ -183,6 +183,7 @@ body, ul {
     opacity: 0.7 ease;
     padding: 9px;
 }
+/* for buttons 1, 2, 3*/
 .button1{
     background: radial-gradient(circle, #386d7e, #dddddd);
     border: 4.5px double rgb(255, 255, 255);
@@ -204,6 +205,7 @@ body, ul {
     border-radius: 40px;
     text-align: center;
 }
+/* for buttons 1, 2, 3 to hover*/
 .button1:hover{
     opacity: 0.6;
 }
@@ -213,6 +215,7 @@ body, ul {
 .button3:hover{
     opacity: 0.6;
 }
+/* for the navlist*/
 .nav-list li {
     position: relative;
 }
@@ -225,8 +228,7 @@ body, ul {
     display: block;
 }
 
-/* Style the dropdown */
-footer{
+footer{ /* for the footer 1*/
     display: inline-flex;
     position: absolute;
     top: 253vh;
@@ -237,7 +239,7 @@ footer{
     position:absolute;
 }
 
-.footer2{
+.footer2{ /* for the footer 2*/
     display: inline-flex;
     position: absolute;
     top: 198.5vh;
@@ -247,7 +249,7 @@ footer{
     padding:10px;
     position:absolute;
 }
-.footer3{
+.footer3{ /* for the footer 3*/
     display: inline-flex;
     position: absolute;
     top: 250vh;
@@ -257,7 +259,7 @@ footer{
     padding:10px;
     position:absolute;
 }
-.icon{
+.icon{ /* for the icon sprite*/
     float: left;
     display: inline flex;
     background: url(media/sprite3.png) no-repeat;
@@ -267,6 +269,7 @@ footer{
     margin-top: 10px;
     margin-bottom: 5px;
 }
+/* for the ig, yt, fb and pinterest links (sprite)*/
 #instagram{
     background-position: -290px -221px;
 }
@@ -279,13 +282,13 @@ footer{
 #pinterest{
     background-position: -141px -221px;
 }
-.rights{
+.rights{ /* for the all rights reserved*/
     padding-left: 28vw;
     padding-top: 5vh;
     font-size: larger;
     color: #ffffff;
 }
-.gif{
+.gif{ /* for the gif/
     border: #ffffff 10px dashed;
     border-radius: 40px;
     display: inline-block;
@@ -295,7 +298,7 @@ footer{
     position: relative;
     z-index: 90;
 }
-#girl{ 
+#girl{ /* for the girl gif*/
     background-image: url(media/girl.gif);
     width: 500px;
     height: 290px;
@@ -303,19 +306,19 @@ footer{
     animation: asteroidgrow 10s linear infinite;
     margin-top: 60vh;
 }
-.picture{
+.picture{ /* for the poster*/
     padding-top: 4vh;
     padding-left: 30vw;
 }
-.picture:hover{
+.picture:hover{ /* transforms picture (enlarge)*/
     transform: scale(1.3);
 }
-@keyframes asteroidgrow{
+@keyframes asteroidgrow{ /* to translate the gif*/
     0%{transform: translate(0px, 0px);}
     50%{transform: translate(815px, 0px);}
     100%{transform: translate(-21px, 0px)}
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) { /* for the sizing of the mobile website*/ /* same comments with desktop and mobile version*/
     /* Styles for smaller screens/mobile devices here */
     .page{
         background-color: #64b6b2;
