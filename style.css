@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playpen+Sans:wght@200;300&display=swap');
+/* for the added font*/
+*{ /* for the margin to be set to 0*/
+    margin:0;
+}
+.page{ /* for the page 1 */
+    background-color: #64b6b2;
+    background-size: cover;
+    height: 200vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page2{ /* for the page 2*/
+    background-color: #64b6b2;
+    background-size: cover;
+    height: 200vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page3{ /* for the page 3*/
+    background-color: #64b6b2;
+    background-size: cover;
+    height: 250vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Title{ /* for the title*/
+    position: absolute;
+    font-family:sans-serif;
+    font-size:90px;
+    margin-top: 45vh;
+    margin-left: 2vw;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    width: 95.95vw;
+    z-index: 1;
+}
+.Slogan{ /* for the slogan */
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    font-size:40px;
+    margin-top: 75vh;
+    margin-left: 2vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #5ce1e6;
+    width: 95.95vw;
+    z-index: 1;
+}
+#vidbg{ /* for the video background*/
+    background-size: cover;
+    height:100vh;
+    position: relative;
+    width: 100vw;
+    object-fit: cover;
+    z-index: 0.00001;
+    overflow: hidden;
+}
+.Background{ /* for the containers*/
+    background: radial-gradient(circle, #386d7e, #dddddd);
+    border: double #ffffff 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display:inline;
+    padding: 10px;
+    position: absolute;
+    width:96.95vw;
+    height: 50vh;
+}
+.Background2{ /*for the containers*/
+    background: radial-gradient(circle, #386d7e, #dddddd);
+    border: double #ffffff 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display:inline-flex;
+    padding: 10px;
+    position: absolute;
+    width:96.95vw;
+    height: 50vh;
+}
+.seperator{ /*seperates containers*/
+    background-color: #64b6b2;
+    height: 10vh;
+    position: relative;
+    margin-top: 56.3vh;
+}
+.seperator2{ /*seperates containers*/
+    background-color: #64b6b2;
+    height: 10vh;
+    position: relative;
+    margin-top: 56.3vh;
+}
+.Container{ /*for the container*/
+    background: radial-gradient(circle, #dddddd,#386d7e);
+    border: double #ffffff 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display:inline-flex;
+    padding: 10px;
+    position: absolute;
+    width:96.95vw;
+    height: 70vh;
+}
+.box1{ /*for the box 1*/
+    padding: 10px;
+}
+.box2{ /*for the box 2*/
+    padding: 15px;
+    padding-top: 7vh;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: #386d7e;
+}
+.box3{ /*for the box 3*/
+    padding: 2px;
+}
+.box4{ /*for the box 4*/
+    padding: 2px;
+}
+.heading{ /* for the heading*/
+    font-size:x-large;
+    font-family: 'Playpen Sans', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #5ce1e6;
+}
+.font{ /* for the font*/
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    text-align: center;
+}
+span{ /*for the font*/
+    font-weight: 1000;
+    font-size: x-large;
+}
+.paragraph1{ /* for the paragrapg*/
+    padding-left: 2vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.paragraph2{ /* for paragraph*/
+    padding-left: 2vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.paragraph3{ /* for paragraph*/
+    padding-left: 2vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+/* margin, padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+.logo{ /*this is for the placement of the logo*/
+    align-items: center;
+}
+.circle{ /*this is to get a circular shape (used for logo)*/
+    border-radius: 75%;
+    border:white solid 1px;
+    padding: 3px;
+    
+}
+.navbar {
+    background-color: #64b6b2;
+    width: 100vw;
+    height: 10vh;
+}
+
+/* Style the list items */
+.nav-list {
+    font-family:Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px; 
+    opacity: 0.7 ease;
+    padding: 9px;
+}
+.button1{
+    background: radial-gradient(circle, #386d7e, #dddddd);
+    border: 4.5px double rgb(255, 255, 255);
+    width: 10vw;
+    border-radius: 40px;
+    text-align: center;
+}
+.button2{
+    background: radial-gradient(circle, #386d7e, #dddddd);
+    border: 4.5px double rgb(255, 255, 255);
+    width: 10vw;
+    border-radius: 40px;
+    text-align: center;
+}
+.button3{
+    background: radial-gradient(circle, #386d7e, #dddddd);
+    border: 4.5px double rgb(255, 255, 255);
+    width: 10vw;
+    border-radius: 40px;
+    text-align: center;
+}
+.button1:hover{
+    opacity: 0.6;
+}
+.button2:hover{
+    opacity: 0.6;
+}
+.button3:hover{
+    opacity: 0.6;
+}
+.nav-list li {
+    position: relative;
+}
+
+/* Style the links */
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+/* Style the dropdown */
+footer{
+    display: inline-flex;
+    position: absolute;
+    top: 253vh;
+    background-color: #64b6b2;
+    height: 12vh;
+    width: 98.25vw;
+    padding:10px;
+    position:absolute;
+}
+
+.footer2{
+    display: inline-flex;
+    position: absolute;
+    top: 198.5vh;
+    background-color: #64b6b2;
+    height: 12vh;
+    width: 98.25vw;
+    padding:10px;
+    position:absolute;
+}
+.footer3{
+    display: inline-flex;
+    position: absolute;
+    top: 250vh;
+    background-color: #64b6b2;
+    height: 12vh;
+    width: 98.25vw;
+    padding:10px;
+    position:absolute;
+}
+.icon{
+    float: left;
+    display: inline flex;
+    background: url(media/sprite3.png) no-repeat;
+    width: 66px;
+    height:66px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#instagram{
+    background-position: -290px -221px;
+}
+#youtube{
+    background-position: -439px -221px;
+}
+#facebook{
+    background-position: -439px -146px;
+}
+#pinterest{
+    background-position: -141px -221px;
+}
+.rights{
+    padding-left: 28vw;
+    padding-top: 5vh;
+    font-size: larger;
+    color: #ffffff;
+}
+.gif{
+    border: #ffffff 10px dashed;
+    border-radius: 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 90;
+}
+#girl{ 
+    background-image: url(media/girl.gif);
+    width: 500px;
+    height: 290px;
+    position: absolute;
+    animation: asteroidgrow 10s linear infinite;
+    margin-top: 60vh;
+}
+.picture{
+    padding-top: 4vh;
+    padding-left: 30vw;
+}
+.picture:hover{
+    transform: scale(1.3);
+}
+@keyframes asteroidgrow{
+    0%{transform: translate(0px, 0px);}
+    50%{transform: translate(815px, 0px);}
+    100%{transform: translate(-21px, 0px)}
+}
+@media screen and (max-width: 480px) {
+    /* Styles for smaller screens/mobile devices here */
+    .page{
+        background-color: #64b6b2;
+        background-size: cover;
+        height: 255vh;
+        width: 480px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .page3{
+        background-color: #64b6b2;
+        background-size: cover;
+        height: 200vh;
+        width: 480px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    body {
+      margin: 0; /* Remove default body margin */
+    }
+
+    .Title {
+        font-size: 2.5em; /* Adjust font size for smaller screens if needed */
+        margin-top: 20vh;
+    }
+
+    .Slogan {
+        font-size: 1em; /* Adjust font size for smaller screens if needed */
+        margin-top: 33vh;
+    }
+
+    #vidbg {
+        height: auto; /* Adjust as needed for the video height on smaller screens */
+    }
+
+    .Background {
+      padding: 0px; /* Add padding to the container for better readability on small screens */
+      width: 96vw;
+      height: auto;
+    }
+    .Background2 {
+        padding: 0px; /* Add padding to the container for better readability on small screens */
+        width: 96vw;
+        height: 70vh;
+    }
+    .paragraph2{
+        font-size: 12px;
+    }
+    .paragraph3{
+        font-size: 11px;
+    }
+    .seperator {
+        padding: 0px; /* Add padding to the container for better readability on small screens */
+        width: auto;
+        margin-top: 73vh;
+        height: 3vh;
+        position: relative;
+    }
+    .seperator2 {
+        padding: 0px; /* Add padding to the container for better readability on small screens */
+        width: auto;
+        margin-top: 73vh;
+        height: 10vh;
+        position: relative;
+    }
+    .Container {
+        padding: 5px; /* Add padding to the container for better readability on small screens */
+        width: auto;
+        height: 60vh;
+    }
+    .box1{
+        width: auto;
+        height: auto;
+    }
+    .box2{
+        margin-top: 20vh;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    video{
+        width: 31vw;
+    }
+    .heading {
+        font-size: 1em;
+    }
+    .button1{
+        background-color:blueviolet;
+        width: auto;
+        border-radius: 40px;
+        text-align: center;
+    }
+    .button2{
+        background-color:blueviolet;
+        width: auto;
+        border-radius: 40px;
+        text-align: center;
+    }
+    .button3{
+        background-color:blueviolet;
+        width: auto;
+        border-radius: 40px;
+        text-align: center;
+    }
+    .button1:hover{
+        opacity: 0.6;
+        color: blue;
+    }
+    .button2:hover{
+        opacity: 0.6;
+        color: blue;
+    }
+    .button3:hover{
+        opacity: 0.6;
+        color: blue;
+    }
+    footer{
+        position: static;
+        margin-top: 0vh;
+        width: 95.8vw;
+    }
+    .footer2{
+        position: static;
+        margin-top: 76vh;
+        width: 95.8vw;
+    }
+    .rights{
+        font-size: 0.5em;
+        padding-left: 5vw;
+    }
+    .gif{
+        border: #ffffff 2px dashed;
+        border-radius: 40px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        z-index: 90;
+    }
+    #girl{ 
+        background-image: url(media/girl.gif);
+        margin-top: 68vh;
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        animation: asteroidgrow 5s linear infinite;
+    }
+    .picture{
+        padding-top: 5vh;
+        transform: scale(0.5);
+        padding-left: 1vw;
+    }
+    .picture:hover{
+        transform: scale(0.7);
+    }
+    @keyframes asteroidgrow{
+        0%{transform: translate(0px, 0px);}
+        50%{transform: translate(250px, 0px);}
+        100%{transform: translate(-11px, 0px)}
+    }
+  }
